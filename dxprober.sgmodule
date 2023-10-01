@@ -4,7 +4,7 @@
 #!homepage=https://github.com/realZnS/dxprober.js
 
 [Script]
-dxprober = type=http-response, requires-body=true, pattern=https?:\/\/maimai\.wahlap\.com\/maimai-mobile\/record, script-path=https://github.com/realZnS/dxprober.js/raw/main/dxprober_load.js
+dxprober = type=http-response, requires-body=true, pattern=https?:\/\/maimai\.wahlap\.com\/maimai-mobile\/home, script-path=https://github.com/realZnS/dxprober.js/raw/main/dxprober_load.js
 
 [MITM]
 hostname = maimai.wahlap.com
